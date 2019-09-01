@@ -1,0 +1,53 @@
+//Заголовки
+.headerh2 {
+		display: inline-block;
+		text-align: center;
+		margin: 0;
+		margin: 88px 0px 43px;
+		font-family: 'ralewayextrabold';
+		font-size: 25px;
+		color: $h2dark;
+		text-transform: uppercase;
+	&--mb {
+		margin-bottom: 12px;
+	}
+	&__span {
+		font-family: 'ralewaymedium';
+		font-weight: 300;
+		font-size: 12px;
+		display: inline-block;
+		background-color: $orange;
+		padding: 3px 4px 2px 4px;
+		line-height: 1;
+		color: #fff;
+		&--black {
+			color: #fff;
+			background-color: #000;
+		}
+	}
+}
+//оранжевая кнопка
+.yellowbtn {
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 2px;
+	background-color: $orange;
+	border: 1px solid $orange;
+	padding: 12px 22px;
+	text-transform: uppercase;
+	font-family: 'karlabold';
+	font-size: 14px;
+}
+//текст с кнопкой
+.textbtn {
+	font-family: 'open_sansregular';
+	color: $pcolor;
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 32px 0px 0px 18px;
+	&__text {
+		padding-bottom: 35px;
+	}
+}
